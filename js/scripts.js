@@ -1,4 +1,5 @@
 var foods = ['Beverages', 'food', 'dairy', 'seafood', 'snacks'];
-var newFoods = foods.toUpperCase();
 
-console.log(newFoods);
+
+foods = foods.map(function(food){ return food.toUpperCase()
+})
